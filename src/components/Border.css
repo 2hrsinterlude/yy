@@ -1,0 +1,23 @@
+/* src/components/Border.css */
+.border-left,
+.border-right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 7px;
+    /* background-color: #dee2e6; */
+}
+
+.border-left {
+    border-left: 2px solid #000;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    left: 0;
+}
+
+.border-right {
+    border-right: 2px solid #000;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    right: 0;
+}

@@ -1,0 +1,58 @@
+/* src/reset.css */
+
+/* Удаление всех стандартных стилей */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Обеспечение гладкой настройки типографики */
+body {
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Удаление списка стилей */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Удаление стандартных стилей ссылок */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Удаление стандартных стилей для кнопок */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Обеспечение стандартного размера для изображений */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Удаление стандартных стилей для полей ввода */
+input,
+textarea {
+    border: none;
+    outline: none;
+    font: inherit;
+}
+
+/* Установка box-sizing для всех элементов */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
